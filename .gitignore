@@ -1,3 +1,18 @@
+/bootstrap/compiled.php
 /vendor
 /node_modules
+composer.phar
+composer.lock
+
+# Environment
 .env
+/config/local
+
+# IDEs
+/.idea
+.project
+/.settings
+
+# OS
+.DS_Store
+Thumbs.db
