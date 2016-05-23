@@ -1,5 +1,8 @@
 ## Laravel PHP Framework
 
+####Master branch build status: 
+![](https://travis-ci.org/jorgeltpf/proj-tmd.svg?branch=master)
+
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
