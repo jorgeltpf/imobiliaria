@@ -6,9 +6,7 @@ composer.lock
 
 # Environment
 .env
-<<<<<<< HEAD
 /nbproject
-=======
 /config/local
 
 # IDEs
@@ -19,4 +17,3 @@ composer.lock
 # OS
 .DS_Store
 Thumbs.db
->>>>>>> jorgeltpf-master
