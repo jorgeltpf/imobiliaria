@@ -34,7 +34,7 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Em Manutenção.</div>
+				<div class="title">Em Manutencao.</div>
 			</div>
 		</div>
 	</body>
