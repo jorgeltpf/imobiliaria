@@ -1,4 +1,5 @@
 /bootstrap/compiled.php
+/resources/vendor
 /vendor
 /node_modules
 composer.phar
@@ -6,6 +7,7 @@ composer.lock
 
 # Environment
 .env
+.env.example
 /nbproject
 /config/local
 

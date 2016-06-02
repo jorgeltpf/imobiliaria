@@ -1,0 +1,27 @@
+{
+  "name": "imobiliaria",
+  "description": "Training WebApp",
+  "main": "index.php",
+  "authors": [
+    "scarapa@gmail.com"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Laravel",
+    "Gulp",
+    "Bower"
+  ],
+  "homepage": "https://github.com/scarapa/imobiliaria",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}
