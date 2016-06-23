@@ -9,7 +9,7 @@
                 <div class="panel-body">
                     @if (count($errors) > 0)
                     <div class="alert alert-danger">
-                        <strong>Whoops!</strong> There were some problems with your input.<br><br>
+                        <strong>Oops!</strong> Aconteceu um errinho...<br><br>
                         <ul>
                             @foreach ($errors->all() as $error)
                             <li>{{ $error }}</li>
@@ -18,13 +18,14 @@
                     </div>
                     @endif
 
-                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
+                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/client/form') }}">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                        <input type="hidden" name="id" value="">
 
                         <div class="form-group">
-                            <label class="col-md-4 control-label">E-Mail Address</label>
+                            <label class="col-md-4 control-label">Nome</label>
                             <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" value="{{ old('email') }}">
+                                <input type="name" class="form-control" name="name" value="{{ old('name') }}">
                             </div>
                         </div>
 
