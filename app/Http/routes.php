@@ -22,4 +22,11 @@ Route::controllers([
 Route::get('categories/index','CategoriesController@index');
 
 //CLIENTS
-Route::get('clients/form','ClientsController@index');
+Route::get('clients/index','ClientsController@index');
+Route::get('clients/', 'ClientsController@index');
+Route::get('clients/create', 'ClientsController@create');
+Route::post('clients/create', 'ClientsController@store');
+Route::get('clients/{id}/edit', 'ClientsController@edit');
+Route::post('clients/{id}/edit', 'ClientsController@update');
+Route::get('clients/{id}/delete', 'ClientsController@delete');
+Route::post('clients/{id}/delete', 'ClientsController@destroy');
