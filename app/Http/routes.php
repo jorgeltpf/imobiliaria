@@ -22,4 +22,4 @@ Route::controllers([
 Route::get('categories/index','CategoriesController@index');
 
 //CLIENTS
-Route::get('clients/form','ClientsController@index');
+Route::get('clients/form','ClientsController@form');

@@ -66,10 +66,10 @@ return [
 
 		'pgsql' => [
 			'driver'   => 'pgsql',
-                        'host'     => env('DB_HOST', 'localhost'),
+            'host'     => env('DB_HOST', 'localhost'),
 			'database' => env('DB_DATABASE', 'imob'),
-			'username' => env('DB_USERNAME', 'postgres'),
-			'password' => env('DB_PASSWORD', 'mengo'),
+			'username' => env('DB_USERNAME', 'postgres_user'),
+			'password' => env('DB_PASSWORD', 'password'),
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',

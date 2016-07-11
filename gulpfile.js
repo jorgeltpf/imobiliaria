@@ -3,6 +3,12 @@ var elixir = require('laravel-elixir');
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
+var paths = {
+	'bootstrap': './resources/vendor/bootstrap-sass/assets/',
+	'jquery': './resources/vendor/jquery/',
+	'font-awesome': './resources/vendor/font-awesome/',
+};
+
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -15,5 +21,10 @@ var sass = require('gulp-sass');
  */
 
 elixir(function(mix) {
-    mix.sass('app.scss');
+    mix.sass('app.scss', 'public/css/',  {includePaths: [paths.bootstrap + 'stylesheets/']})
+    	.copy(paths.bootstrap + 'fonts/bootstrap/**', 'public/fonts')
+    	.scripts([
+    		paths.jquery + 'dist/jquery.js',
+    		paths.bootstrap + 'javascripts/bootstrap.js'
+		], './', 'public/js/app.js');
 });
