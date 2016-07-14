@@ -6,9 +6,7 @@ var paths = {
 	'jquery': './resources/vendor/jquery/',
 	'font-awesome': './resources/vendor/font-awesome/',
 	'homejs': './resources/assets/js/',
-	'homecss': './resources/assets/css/',
-    'homefonts': './resources/assets/fonts/',
-    'homeimgs': './resources/assets/img/'
+	'homecss': './resources/assets/css/'
 };
 
 /*
@@ -22,6 +20,9 @@ var paths = {
  |
  */
 
+// Disable the creation of .map files
+elixir.config.sourcemaps = false;
+
 elixir(function(mix) {
     mix.sass('app.scss', 'public/css/',  {includePaths: [paths.bootstrap + 'stylesheets']});
     mix.copy(paths.bootstrap + 'fonts/bootstrap/**', 'public/fonts');
@@ -31,26 +32,24 @@ elixir(function(mix) {
         ], 'public/js/app.js');
 
 
-    mix.copy(paths.homefonts + '/**', 'public/build/fonts');
-    mix.copy(paths.homeimgs + '/**', 'public/img');
     mix.styles([
-    	paths.homecss + 'owl.carousel.css',
-    	paths.homecss + 'responsive.css',
-    	paths.homecss + 'bootstrap.min.css',
-    	paths.homecss + 'font-awesome.min.css',
-    	paths.homecss + 'style.css',
+    	'./public/css/owl.carousel.css',
+    	'./public/css/responsive.css',
+    	'./public/css/bootstrap.min.css',
+    	'./public/css/font-awesome.min.css',
+    	'./public/css/style.css',
 	], 'public/css/home.css', '/resources');
 
 	mix.scripts([
-    	paths.homejs + 'bxslider.min.js',
-    	paths.homejs + 'jquery.easing.1.3.min.js',
-    	paths.homejs + 'owl.carousel.min.js'
+    	'./public/js/bxslider.min.js',
+    	'./public/js/jquery.easing.1.3.min.js',
+    	'./public/js/owl.carousel.min.js'
 	], 'public/js/home.js', '/resources');
 
 	mix.scripts([
-    	paths.homejs + 'main.js',
-    	paths.homejs + 'script.slider.js',
-    	paths.homejs + 'jquery.sticky.js'
+    	'./public/js/main.js',
+    	'./public/js/script.slider.js',
+    	'./public/js/jquery.sticky.js'
 	], 'public/js/home_main.js', '/resources');
 
     // Cache-bust all.css and all.js files.

@@ -292,5 +292,3 @@ jQuery(document).ready(function($){
     setTimeout(scroller, 0);
   });
 })(jQuery);
-
-//# sourceMappingURL=home_main.js.map
