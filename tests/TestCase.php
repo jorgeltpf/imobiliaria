@@ -2,6 +2,9 @@
 
 class TestCase extends Illuminate\Foundation\Testing\TestCase {
 
+	// Laravel 5.1 - Add the protected $baseUrl property
+	protected $baseUrl = 'http://localhost';
+
 	/**
 	 * Creates the application.
 	 *
