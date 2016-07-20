@@ -6,5 +6,5 @@ return [
 	'sign_up' => 'Inscrever-se',
 	'admin_panel' => 'Painel Administrativo',
 	'logout' => 'Logout',
-	'login_as' => 'Logado como',
+	'login_as' => 'Logado como :name!',
 ];

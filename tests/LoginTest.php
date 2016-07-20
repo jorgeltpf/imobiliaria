@@ -4,9 +4,9 @@ class LoginTest extends TestCase {
 
 	public function testLogin() {
 		$this->visit('/auth/login')
-			 ->type('teste@teste.com', 'email')
-			 ->type('teste', 'password')
+			 ->type('admin@admin.com', 'E-mail')
+			 ->type('123456', 'Senha')
 			 ->press('Login')
-			 ->seePageIs('/');
+			 ->seePageIs('/home');
 	}
 }
