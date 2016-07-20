@@ -6,6 +6,17 @@ composer.phar
 composer.lock
 npm-debug.log
 
+# Builds paths (incluso para encorajar builds!)
+/public/appfiles/*/*
+/public/appfiles/*/*/*
+/public/build
+/public/css
+/public/fonts
+/public/img
+/public/js
+/public/images/establishments
+/resources/assets/build
+
 # Environment
 .env
 .env.example

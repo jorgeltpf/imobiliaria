@@ -15,7 +15,7 @@ class SiteTest extends TestCase {
 
 	public function testSiteSeeRegiser() {
 		$this->visit('/')
-			 ->click('Registrar')
+			 ->click('Inscrever-se')
 			 ->seePageIs('/auth/register');
 	}
 

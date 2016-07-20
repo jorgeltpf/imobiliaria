@@ -558,7 +558,6 @@
     </div> <!-- End footer bottom area -->
 
 	@if ($env === 'local')
-    	<script src="{!! elixir('js/home.js') !!}"></script>
         <script src="{!! elixir('js/app.js') !!}"></script>
 	@else
     	<script src="{!! secure_asset('js/home.js') !!}"></script>
