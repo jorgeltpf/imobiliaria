@@ -4,11 +4,11 @@
 
 ## Passos para iniciar o projeto
 
-** composer install
+* **composer install**
 
-** npm install
+* **npm install**
 
-** bower install
+* **bower install**
 
-** gulp
+* **gulp**
 
