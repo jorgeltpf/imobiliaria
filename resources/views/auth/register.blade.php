@@ -18,7 +18,7 @@
 						</div>
 					@endif
 
-					<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/register') }}">
+					<form name="form" class="form-horizontal" role="form" method="POST" action="{{ url('/auth/register') }}">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">
@@ -51,9 +51,10 @@
 
 						<div class="form-group">
 							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">
+								<input type="submit" class="btn btn-primary" value="{{ trans('user/user.register') }}">
+								<!-- <button type="submit" class="btn btn-primary">
 									{{ trans('user/user.register') }}
-								</button>
+								</button> -->
 							</div>
 						</div>
 					</form>

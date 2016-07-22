@@ -1,0 +1,317 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-awesome"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"lc",
+				"locust"
+			],
+			[
+				"smii",
+				"similars"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/imobiliaria/imobiliaria",
+		"/var/www/project-amigo-ent/config/app.php",
+		"/var/www/imobiliaria/tests/TestCase.php",
+		"/home/jorgeltpf/proj-mon/.gitignore",
+		"/home/jorgeltpf/proj-mon/blog/admin.py",
+		"/home/jorgeltpf/proj-mon/blog/models.py",
+		"/home/jorgeltpf/proj-mon/mysite/settings.py",
+		"/var/www/imobiliaria/tests/WelcomeTest.php",
+		"/var/www/imobiliaria/tests/ExampleTest.php",
+		"/var/www/ustora/css/owl.carousel.css",
+		"/var/www/imobiliaria/resources/assets/sass/owl.carousel.scss",
+		"/var/www/imobiliaria/resources/assets/sass/responsive.scss",
+		"/var/www/ustora/css/responsive.css",
+		"/var/www/imobiliaria/app/Http/routes.php",
+		"/var/www/imobiliaria/bower.json",
+		"/var/www/content-filter/css/style.css",
+		"/var/www/content-filter/index.html",
+		"/var/www/content-filter/js/main.js",
+		"/var/www/project-amigo-ent/resources/views/pages/about.blade.php",
+		"/var/www/project-amigo-ent/resources/assets/sass/site.scss",
+		"/var/www/content-filter/index2.html",
+		"/var/www/project-amigo-ent/resources/assets/sass/_variables.scss",
+		"/var/www/content-filter/script.js",
+		"/var/www/content-filter/style2.css",
+		"/var/www/project-amigo-ent/resources/views/establishments/index.blade.php",
+		"/var/www/project-amigo-ent/app/Http/Controllers/EstablishmentsController.php",
+		"/var/www/project-amigo-ent/resources/views/app.blade.php",
+		"/var/www/content-filter/demo.html",
+		"/var/www/content-filter/style.css",
+		"/var/www/content-filter/readme.txt",
+		"/var/www/content-filter/partials/_mixins.scss",
+		"/var/www/content-filter/scss/style.scss",
+		"/var/www/content-filter/css/reset.css",
+		"/var/www/content-filter/partials/_variables.scss",
+		"/var/www/content-filter/partials/_layout.scss",
+		"/var/www/project-amigo-ent/resources/views/pages/home.blade.php",
+		"/home/jorgeltpf/work/rest/Procfile",
+		"/home/jorgeltpf/work/rest/suggestion/core/views.py",
+		"/home/jorgeltpf/work/rest/suggestion/__init__.py",
+		"/home/jorgeltpf/work/rest/requirements.txt",
+		"/home/jorgeltpf/work/rest/.gitignore",
+		"/home/jorgeltpf/work/rest/suggestion/subscriber/service.py",
+		"/home/jorgeltpf/work/rest/tests/test_view.py",
+		"/home/jorgeltpf/work/rest/run.py",
+		"/home/jorgeltpf/work/rest/run_subscriber.py",
+		"/home/jorgeltpf/repo/Jorge-Titoneli/project/run.py",
+		"/home/jorgeltpf/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/imobiliaria/config/database.php",
+		"/home/jorgeltpf/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/jorgeltpf/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fonts",
+			"/* Colorbox corrections",
+			"@import",
+			"import",
+			"mix",
+			"gap",
+			"thumb",
+			"list-sty",
+			"htmlentities",
+			" li",
+			"li",
+			"9a9a9a",
+			"-close",
+			"try",
+			"close",
+			".section-c",
+			".cd-gall",
+			"cd-gall",
+			"uppercase",
+			"cd-filter-block",
+			"cd-icon-filter",
+			"cd-filter-trigger",
+			"filter",
+			"cd-icon-arrow",
+			"cd-gallery",
+			"cd-main-content",
+			"cd-",
+			"cd-filter",
+			"cd-",
+			"cd-filter",
+			"cd-filter-block",
+			"cd-filter",
+			"d-filter",
+			"cd-filter",
+			"cd-main-content",
+			"cd-main-conten",
+			"Selecione um ",
+			"cd-filter-block",
+			"../",
+			"\n          ",
+			"  ",
+			"cd-filter-block .list li",
+			".cd-filter-block .list li",
+			"filter-content",
+			"cd-filter-content",
+			"filter",
+			".com",
+			"www.",
+			"pass",
+			"save",
+			"view"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"filter-checkbox",
+			"section-content"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "imobiliaria.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"routes",
+				"app/Http/routes.php"
+			],
+			[
+				"config/ap",
+				"config/app.php"
+			],
+			[
+				"about",
+				"resources/views/pages/about.blade.php"
+			],
+			[
+				"home.blad",
+				"resources/views/pages/home.blade.php"
+			],
+			[
+				"database",
+				"config/database.php"
+			],
+			[
+				"databae",
+				"config/database.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
