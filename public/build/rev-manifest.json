@@ -1,7 +1,14 @@
 {
   "css/app.css": "css/app-16683057d6.css",
+  "css/checkbox3.css": "css/checkbox3-c5f839b128.css",
+  "css/dashboard.css": "css/dashboard-0503f3771b.css",
+  "css/dashboard_switch.css": "css/dashboard_switch-148fc6f397.css",
+  "css/datatables.css": "css/datatables-199ff38fd6.css",
   "css/home.css": "css/home-6f01ffc92f.css",
+  "css/select2.css": "css/select2-d44571114a.css",
+  "js/Chart.js": "js/Chart-cfee2a547e.js",
   "js/app.js": "js/app-21c3d8a6f8.js",
+  "js/dashboard_switch.js": "js/dashboard_switch-e8bed6479a.js",
   "js/home.js": "js/home-73ca1f113d.js",
   "js/home_main.js": "js/home_main-10190f6907.js"
 }
